@@ -239,11 +239,9 @@ function handleCalcWallet() {
     console.log(budgets, receipt.textContent, payment.textContent);
     result.innerHTML = `$${wallet}`;
   }
-  if (wallet && wallet < aims){
+  if (wallet ){
   handleProgress();}
-  else{
-    alert('Your wallet is beyond the aim.')
-  }
+ 
 }
 
 function handleProgress() {
