@@ -1,0 +1,278 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+  margin: 5px 10px;
+  padding: 20px;
+  height: 80px;
+  background-color: #eef1ff;
+}
+header,
+.skeleton {
+  border-radius: 40px;
+}
+header,
+.avt,
+.aim-result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h3 {
+  align-self: center;
+  text-align: center;
+}
+
+.search span {
+  margin-top: 15px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  letter-spacing: 2px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+
+}
+.avatar {
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.name {
+  justify-content: flex-end;
+  align-items: center;
+}
+body {
+  padding: 10px;
+  background-image: url('https://i.pinimg.com/564x/1f/ab/60/1fab60f1d2ed189502390ba38f59fdeb.jpg');
+}
+.skeleton {
+  background: #eef1ff;
+  width: 95%;
+  
+}
+.item {
+  margin-top: 30px;
+}
+.avt {
+  height: 35vh;
+  margin-bottom: 20px;
+  background-image: url('https://i.pinimg.com/564x/79/a6/00/79a6006771a952b1076adecb31a9be75.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.aim,
+.budget {
+  height: 17vh;
+}
+.payment,
+.receipt {
+  height: 77vh;
+}
+
+.overview {
+  height: 40vh;
+}
+.avt {
+  flex-direction: column;
+}
+.avt img {
+  margin-top: 10px;
+  width: 60%;
+  height: 70%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avt p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.avt h4 {
+  margin-top: -10px;
+}
+.aim input,
+.budget input {
+  border-radius: 10px;
+  width: 30%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 0px;
+  border-bottom: 2px solid #c4dfdf;
+}
+.aim-result,
+.budget-result {
+  margin-bottom: 0px;
+}
+.aims-list,
+.budgets-list {
+  margin-top: 5px;
+}
+.aim label,
+.budget label {
+  font-size: 14px;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+.aim button,
+.budget button {
+  background-color: #3e8bb8;
+  margin-left: 5%;
+  color: white;
+
+}
+.aim button:disabled, .budget button:disabled{
+  background-color: cornflowerblue;
+  color: white;
+}
+.aim p,
+.budget p {
+  font-size: 11px;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+.input-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input-form label,
+.input-form input,
+.input-form button {
+  margin-bottom: 0.2rem;
+}
+.input-form input {
+  width: 60%;
+}
+.receipt, .payment{
+  background-image: url('https://i.pinimg.com/564x/51/63/b0/5163b07c1451ddf41a68742c482d2e65.jpg');
+  background-size: 200%;
+}
+.receipt-inp,
+.payment-inp {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 80%;
+}
+
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.receipt h5,
+.payment h5 {
+  text-align: center;
+  padding-top: 15px;
+}
+#receipt-table,
+#payment-table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.payment button,
+.receipt button {
+  width: 60%;
+  margin-top: 10px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background: white;
+  color: #3e8bb8;
+  letter-spacing: 1px;
+}
+.payment button:hover,
+.receipt button:hover{
+  background-color: #3e8bb8;
+  color: white;
+}
+.payment button,
+.receipt button,
+.btns label {
+  border: none;
+  outline: none;
+}
+.payment button,
+.receipt button {
+  border-radius: 5px;
+}
+
+.calendar{
+  height: 35vh;
+  padding-top: 10px;
+  background-image: url('https://i.pinimg.com/564x/ee/39/39/ee39390b5d0212f1ef2217d23484734d.jpg');
+}
+.calendar.background-image{
+  opacity: 70%;
+}
+.calendar table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+.calendar th,
+.calendar td {
+  text-align: center;
+  padding: 2px;
+  color: white;
+  line-height: 30px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.calendar tr .active{
+  color: black;
+  font-style: italic;
+}
+#moneyCalc{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.overview button, .container button{
+  color: white;
+  background-color: #3e8bb8 ;
+}
+.container {
+  height: 180px;
+  width: 180px;
+  background:none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress {
+  position: relative;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.circular-progress:before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #eef1ff;
+  border-radius: 50%;
+}
+.value-container {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: cadetblue;
+}
+
+
+
+	
+
